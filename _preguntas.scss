@@ -1,0 +1,16 @@
+/* --------------------- PREGUNTAS --------*/
+
+#preguntas{
+    padding: 20px;
+    text-align: center;
+    .tituloPreguntas{
+        @include titulos();
+    }
+    .tituloPreguntas::after{
+        @include aftertitulos();
+    }
+    .accordion-button:not(.collapsed){
+        color: #f2f2f2;
+        background-color: $colorprin;
+    }
+}

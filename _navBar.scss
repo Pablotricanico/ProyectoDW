@@ -1,0 +1,22 @@
+
+/* --------------------- BARRA DE NAVEGACION--------*/
+#navBar{
+    background-color: $colorprin;
+    overflow: hidden;
+    
+    .navbar-brand{
+        color: white;
+    }
+    .nav-item{
+        padding: 5px;
+        margin: 2px;
+    }
+    .nav-link{
+        color: #f2f2f2;
+        padding: 10px;
+    }
+    .nav-link:hover{
+        background-color: #ef731f;
+        border-radius: 20px;
+    }
+}

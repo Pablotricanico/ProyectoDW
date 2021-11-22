@@ -1,0 +1,46 @@
+$colorprin: #B90020;
+
+@mixin titulos{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+@mixin aftertitulos{
+    content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: $colorprin;
+        margin: 10px auto 40px;
+}
+
+@import "navBar";
+@import "inicio";
+@import "productos";
+@import "sobreNosotros";
+@import "preguntas";
+@import "contacto";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

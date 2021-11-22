@@ -1,0 +1,19 @@
+/* --------------------- SOBRE NOSOTROS --------*/
+
+#sobreNosotros{
+    padding: 20px;
+    text-align: center;
+    
+    .tituloSobreNosotros{
+        @include titulos();
+    }
+    .tituloSobreNosotros::after{
+        @include aftertitulos();
+    }
+    .card{
+        padding: 20px;
+    }
+    .row{
+        padding: 20px;
+    }
+}

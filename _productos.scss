@@ -1,0 +1,23 @@
+/* --------------------- PRODUCTOS --------*/
+
+#productos{
+    text-align: center;
+
+    .rowTitulo{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+    .tituloProductos{
+        @include titulos();
+    }
+    .tituloProductos::after{
+        @include aftertitulos();
+    }
+    .row{
+        padding: 20px;
+    }
+    .col-sm-12{
+        padding: 20px;
+    }
+}
