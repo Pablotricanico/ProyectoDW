@@ -30,7 +30,134 @@ $colorprin: #B90020;
     padding: 0;
     box-sizing: border-box;
 }
+ /*---------------------------------- SECCION SOBRE NOSOTROS--------- */
+#info{
+    display: flex;
+    flex-direction: row;
+}
 
+#info .imgInfo{
+    width: 30vw;
+    height: 50vh;
+    padding: 1rem;
+}
+#info p{
+    padding: 1rem;
+}
+
+#info .info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info .info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---------------------------------- SECCION PREGUNTAS--------- */
+
+#contenedorPreguntas{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedorPreguntas .contenedor{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+#contenedorPreguntas .pregunta{
+    background-color: #B90020;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 3rem;
+}
+
+#contenedorPreguntas .respuesta{
+    padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* ----------------------- SECCION CONTACTO  --------------- */
+
+#contenedorContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#contenedorContacto .map{
+    margin-bottom: 40px;
+    align-items: center;
+}
+#contenedorContacto .formulario{
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+form {
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    height: 306px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+
+/* ----------------------- MEDIAS QUERIS --------------- */
+@media (max-width: 576px) {
+    #info {
+      flex-direction: column;
+    } 
+    #info .imgInfo{
+        width: 70vw;
+    }
+    #contenedorContacto{
+        flex-direction: column;
+    }
+  }
+
+  
 
 
 
